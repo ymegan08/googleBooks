@@ -13,7 +13,7 @@ function SearchForm({ q, handleInputChange, handleFormSubmit }) {
           id="Title"
           type="text"
           value={q}
-          placeholder="Book Title..."
+          placeholder="Search Book Title..."
           name="q"
           onChange={handleInputChange}
           size="55"

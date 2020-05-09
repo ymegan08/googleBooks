@@ -44,11 +44,11 @@ class Saved extends Component {
               </div>
               <div className="p-2 bd-highlight">
                 <h1 className="heading-title mx-sm-3 mb-2">
-                  React Google Books Search
+                  Google Books Search
                 </h1>
 
                 <h2 className="heading-subtitle mx-sm-3 mb-2 text-center">
-                  Showing {count} books in the database.
+                  Showing {count} book(s) in the database.
                 </h2>
               </div>
             </div>

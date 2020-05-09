@@ -7,7 +7,8 @@ mongoose.connect(
   {
     useCreateIndex: true,
     useNewUrlParser: true,
-    useFindAndModify: false
+    useFindAndModify: false,
+    family: 4
   }
 );
 

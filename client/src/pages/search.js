@@ -68,10 +68,10 @@ class Search extends Component {
               </div>
               <div className="order-sm-1 p-2 bd-highlight">
                 <h1 className="heading-title mx-sm-3 mb-2">
-                  React Google Books Search
+                  Google Books Search
                 </h1>
                 <h2 className="heading-subtitle mx-sm-3 mb-2">
-                  Search for and Save Books of Interest.
+                  Search and Save Books
                 </h2>
                 <SearchForm
                   handleInputChange={this.handleInputChange}

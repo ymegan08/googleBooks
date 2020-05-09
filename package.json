@@ -1,0 +1,41 @@
+{
+  "name": "googlebooks",
+  "version": "1.0.0",
+  "description": "User can search for books via the Google Books API and render them in the page. User had the option to \"view\" a book, bringing them to the book on Google books, or \"save\" a book, saving it to the Mongo database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymegan08/googleBooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ymegan08/googleBooks/issues"
+  },
+  "homepage": "https://github.com/ymegan08/googleBooks#readme",
+  "dependencies": {
+    "@sentry/browser": "^5.15.5",
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.9.13",
+    "nodemon": "^2.0.3",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-toastify": "^6.0.0-rc.2-1"
+  }
+}

@@ -25,6 +25,18 @@ const booksSeed = [
       "Woman of Grace is an insightful and intimate Bible study written to help married women to grow in holiness in their day-to-day living. Drawing from her life experiences, Michaelann Martin offers ways that will help women improve their prayer lives, communicate with their family, and find fulfillment in their vocation. Each chapter includes questions that mine the rich teaching of Scripture and the Church to help women apply those principles in their own lives. Those who seek to grow in holiness as wives and mothers will benefit greatly from this study.",
     image:
       "http://books.google.com/books/content?id=8lINUTi_GBYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    authors: ["Jen Wilkin"],
+    googleId: "uXQMvgAACAAJ",
+    title: "1 Peter Bible Study Book",
+    subtitle: "A Living Hope in Christ",
+    link:
+      "http://books.google.com/books?id=uXQMvgAACAAJ&dq=title:jen+wilkin&hl=&source=gbs_api",
+    description:
+      "Our inheritance through Christ is imperishable, undefiled, and unfading. In 1 Peter, a man of faith and flaws and eyewitness to the life of Christ challenges us to look beyond our current circumstances to a future inheritance. He shares his concerns on big picture issues for the early church, describes believers' true identity in Christ, and ultimately helps readers discover what it means to experience the Living Hope they have in Christ. Key themes of humility, submission, and identity in Christ guide the study of 1 Peter as participants are challenged to read the book in its entirety each week. Teaching videos are key to the understanding of this study. (9 sessions) Features: Personal study segments to complete between group sessions 9-session study with 8 weeks of homework Verse-by-verse approach to complete a book study Teaching videos that build upon and tie together the personal study available for purchase or rent (30 to 35 minutes per session) Benefits Expand your understanding of 1 Peter for personal spiritual growth by reading the book in its entirety throughout each week of study Follow a verse-by-verse approach to complete a book study Discover the gospel of Christ as learners seek to conform fully to the Scriptures Dig deeper into Scripture individually and alongside other women--both those new to Bible study and those more familiar with Scriptures--with this widely-applicable study Author: Jen Wilkin is a writer, teacher, and blogger at JenWilkin.net. She is the managing editor of The Village Church blog and leads the Flower Mound Women's Bible Study, an interdenominational Bible study with about 700 members representing 68 different churches. She earned a B.A. in English and a Master of Business Administration from Texas A&M. Jen wrote Women of the Word: How to Study the Bible with Both Our Hearts and Our Minds and has a 9-week DVD Bible study on The Sermon on the Mount.Jen grew up in Texas and came to saving faith in elementary school. Her childhood was marked by time spent in seven different denominations - a range of experience that left her with the conviction that knowing the Word was the only sure means of discerning truth from error. Jen's passion is to see women become articulate and committed followers of Christ, with a clear understanding of why they believe what they believe and grounded in the Word of God. She sees women as most frequently appealed to through their emotions. Because of that, she advocates for women to have Bible literacy, love God with their minds, and have their voices and giftings fully leveraged in the church.",
+    image:
+      "http://books.google.com/books/content?id=uXQMvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   }
 ];
 

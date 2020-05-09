@@ -27,9 +27,6 @@ class App extends Component {
               <Redirect to="/not-found" />
             </Switch>
           </div>
-          <div className="head-foot">
-            <Footer />
-          </div>
         </section>
       </React.Fragment>
     );
